@@ -53,12 +53,16 @@ utilizadas estão dentro do script emp.py
  
 **Argumentos de entrada**: 
  
-data - Matriz N-Dimensional no formato [.npy] 
-se_size - Tamanho do elemento estruturante 
-se_size_increment - Incremento do tamanho do elemento estruturante 
-num_openings_closings(K) - Número de aberturas e fechamentos 
-output - Diretório de saída 
- 
+data - Matriz N-Dimensional no formato [.npy]
+
+se_size - Tamanho do elemento estruturante
+
+se_size_increment - Incremento do tamanho do elemento estruturante
+
+num_openings_closings(K) - Número de aberturas e fechamentos
+
+output - Diretório de saída
+
 **Saída**: 
  
 image2 - Matriz N*(2*K+1)-Dimensional salva no formato [.npy] 
