@@ -3,25 +3,20 @@
 O código completo está dividido em duas partes, pré­processamento e código principal. 
  
 Na parte de pre­processamento existem dois scripts em python: ​
-convert_HS_to_Array.py ​
-e 
-pca.py. 
+convert_HS_to_Array.py e pca.py.
  
 - convert_HS_to_Array.py 
  
-O script ​
-convert_HS_to_Array.py​
- realiza a conversão dos formatos utilizados por imagens 
-hyperspectrais em arrays N­Dimensionais, sendo utilizado da seguinte forma: 
+O script ​convert_HS_to_Array.py​ realiza a conversão dos formatos utilizados por imagens hyperspectrais em arrays N­Dimensionais, sendo utilizado da seguinte forma: 
  
 Argumentos de entrada: 
  
 image  ­ Imagem de entrada N­Dimensional (ENVI extension) [.img] 
 header ­ Cabeçalho da imagem de entrada [.hdr] 
-output  ­ Diretório de saída
- ­ 
- 
+output ­ Diretório de saída
+
 Saída: 
+
 image2 ­ Matriz N­Dimensional salva no formato [.npz] 
  
 Exemplo de utilização: 
@@ -35,18 +30,16 @@ O script pca.py realiza a extração das M primeiras principais componentes do m
  
 Argumentos de entrada: 
  
-image
-­ Matriz N­Dimensional no formato [.npy]. 
-num_components
-­ Número de componentes principais desejado. 
-output
-­ Diretório de saída
+image - Matriz N­Dimensional no formato [.npy]. 
+num_components - Número de componentes principais desejado. 
+output - Diretório de saída
  
  
 Saída: 
  
 image2 ­ Matriz M­Dimensional salva no formato [.npz] 
- 
+
+
 Exemplo de utilização, para a extração das 3 primeiras componentes do exemplo acima: 
  
 python pca.py output/TelopsDatasetCityLWIR_Subset.img.npy 3 output/
