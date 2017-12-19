@@ -2,11 +2,11 @@
 
 O código completo está dividido em duas partes, pré­processamento e código principal. 
  
-Na parte de pre-processamento existem dois scripts em python: convert_HS_to_Array.py e pca.py.
+Na parte de pre-processamento existem dois scripts em python: **convert_HS_to_Array.py e pca.py**.
  
 - convert_HS_to_Array.py 
  
-O script ​convert_HS_to_Array.py​ realiza a conversão dos formatos utilizados por imagens hyperspectrais em arrays N­Dimensionais, sendo utilizado da seguinte forma: 
+O script **convert_HS_to_Array.py** realiza a conversão dos formatos utilizados por imagens hyperspectrais em arrays N­Dimensionais, sendo utilizado da seguinte forma: 
  
 Argumentos de entrada: 
  
@@ -39,14 +39,14 @@ Saída:
 image2 - Matriz M-Dimensional salva no formato [.npz] 
 
 
-Exemplo de utilização, para a extração das 3 primeiras componentes do exemplo acima: 
+# Exemplo de utilização, para a extração das 3 primeiras componentes do exemplo acima: 
  
 python pca.py output/TelopsDatasetCityLWIR_Subset.img.npy 3 output/
 
 O código principal apresentado não foi modularizado, logo todas as funções e declarações 
 utilizadas estão dentro do script emp.py 
  
-Argumentos de entrada: 
+**Argumentos de entrada**: 
  
 data - Matriz N-Dimensional no formato [.npy] 
 se_size - Tamanho do elemento estruturante 
@@ -54,7 +54,7 @@ se_size_increment - Incremento do tamanho do elemento estruturante
 num_openings_closings(K) - Número de aberturas e fechamentos 
 output - Diretório de saída 
  
-Saída: 
+**Saída**: 
  
 image2 - Matriz N*(2*K+1)-Dimensional salva no formato [.npy] 
  
