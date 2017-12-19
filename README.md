@@ -12,7 +12,9 @@ O script **convert_HS_to_Array.py** realiza a conversão dos formatos utilizados
 **Argumentos de entrada**: 
  
 image  - Imagem de entrada N-Dimensional (ENVI extension) [.img] 
+
 header - Cabeçalho da imagem de entrada [.hdr] 
+
 output - Diretório de saída
 
 **Saída**: 
@@ -31,7 +33,9 @@ O script pca.py realiza a extração das M primeiras principais componentes do m
 **Argumentos de entrada**: 
  
 image - Matriz N-Dimensional no formato [.npy]. 
+
 num_components - Número de componentes principais desejado. 
+
 output - Diretório de saída
 
 **Saída**: 
